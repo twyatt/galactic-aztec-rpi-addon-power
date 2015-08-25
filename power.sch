@@ -4149,9 +4149,9 @@ Source: http://www.molex.com</description>
 <wire x1="9.525" y1="-1.415" x2="10.475" y2="-1.415" width="0.127" layer="51"/>
 <wire x1="10.475" y1="-1.415" x2="10.475" y2="1.415" width="0.127" layer="51"/>
 <wire x1="10.475" y1="1.415" x2="9.525" y2="1.415" width="0.127" layer="51"/>
-<pad name="3" x="6.35" y="-1.27" drill="0.8"/>
-<pad name="2" x="1.27" y="1.27" drill="0.8"/>
-<pad name="1" x="-6.35" y="-1.27" drill="0.8"/>
+<pad name="3" x="6.35" y="1.27" drill="0.8128" diameter="1.778"/>
+<pad name="2" x="1.27" y="-1.27" drill="0.8128" diameter="1.778"/>
+<pad name="1" x="-6.35" y="1.27" drill="0.8128" diameter="1.778"/>
 <text x="-9.5" y="2.8" size="0.6096" layer="25" font="vector">&gt;Name</text>
 <text x="-9.5" y="-2.8" size="0.6096" layer="27" font="vector" align="top-left">&gt;Value</text>
 </package>
@@ -4264,7 +4264,7 @@ Source: http://www.molex.com</description>
 <text x="2.54" y="-10.16" size="1.778" layer="97">APTS006A0X Datasheet, pg 14</text>
 <text x="220.98" y="48.26" size="1.27" layer="97" align="top-center">5V Power Indicator</text>
 <text x="198.12" y="40.64" size="2.54" layer="97" align="bottom-center">POWER</text>
-<text x="241.3" y="7.62" size="2.54" layer="94">3</text>
+<text x="241.3" y="7.62" size="2.54" layer="94">4</text>
 <text x="172.72" y="12.7" size="2.54" layer="94" align="center-left">Travis Wyatt</text>
 <text x="172.72" y="8.89" size="2.54" layer="94" align="center-left">SDSU Rocket Project</text>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="68.58" width="0.2032" layer="97" style="longdash"/>

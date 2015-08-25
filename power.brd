@@ -143,7 +143,7 @@
 <text x="20.5" y="5.5" size="1.778" layer="25" font="vector" ratio="12">GALACTIC AZTEC</text>
 <text x="20.5" y="4" size="1.016" layer="25" font="vector" ratio="10">Raspberry Pi Add-on: Power</text>
 <text x="20.5" y="2.5" size="1.016" layer="25" font="vector">SDSU ROCKET PROJECT</text>
-<text x="41.4" y="3.4" size="0.6096" layer="25" font="vector">rev3</text>
+<text x="41.4" y="3.4" size="0.6096" layer="25" font="vector">rev4</text>
 <text x="11.3" y="32.6" size="1.778" layer="25" font="vector" ratio="10" rot="R270" align="center">-</text>
 <text x="16.8" y="32.5" size="1.778" layer="25" font="vector" ratio="10" rot="R270" align="center">+</text>
 <text x="2" y="37" size="0.8128" layer="25" font="vector" rot="SR270" align="top-center">5V PWR</text>
@@ -692,9 +692,9 @@ Source: http://www.molex.com</description>
 <wire x1="9.525" y1="-1.415" x2="10.475" y2="-1.415" width="0.127" layer="51"/>
 <wire x1="10.475" y1="-1.415" x2="10.475" y2="1.415" width="0.127" layer="51"/>
 <wire x1="10.475" y1="1.415" x2="9.525" y2="1.415" width="0.127" layer="51"/>
-<pad name="3" x="6.35" y="-1.27" drill="0.8"/>
-<pad name="2" x="1.27" y="1.27" drill="0.8"/>
-<pad name="1" x="-6.35" y="-1.27" drill="0.8"/>
+<pad name="3" x="6.35" y="1.27" drill="0.8128" diameter="1.778"/>
+<pad name="2" x="1.27" y="-1.27" drill="0.8128" diameter="1.778"/>
+<pad name="1" x="-6.35" y="1.27" drill="0.8128" diameter="1.778"/>
 <text x="-9.5" y="2.8" size="0.6096" layer="25" font="vector">&gt;Name</text>
 <text x="-9.5" y="-2.8" size="0.6096" layer="27" font="vector" align="top-left">&gt;Value</text>
 </package>
@@ -1200,6 +1200,7 @@ As described at &lt;a href=&quot;https://www.sparkfun.com/tutorials/115&quot;&gt
 <contactref element="RTRIM3" pad="1"/>
 <wire x1="36.85" y1="23" x2="44.92" y2="23" width="0.8128" layer="1"/>
 <wire x1="44.92" y1="23" x2="48.65" y2="26.73" width="0.8128" layer="1"/>
+<wire x1="48.65" y1="26.73" x2="48.65" y2="29.27" width="0.8128" layer="1"/>
 </signal>
 </signals>
 <errors>
